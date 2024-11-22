@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Juliana</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-    <body>
 
-        <!--Header Section-->
+<body>
+
+    <!--Header Section-->
     <header>
         <nav>
             <ul>
@@ -40,39 +44,82 @@
         <h2>Skills</h2>
         <div class="skill-list">
             <div class="skill-item">
-            <i class="fa-solid fa-code fa-beat-fade fa-2xl" style="color: #ed719e;"></i>            <h3>Languages</h3>
-            <p>HTML/CSS, JavaScript, Python, Java</p> 
-        </div>
-        <div class="skill-item">
-            <i class="fa-brands fa-python fa-beat-fade fa-2xl" style="color: #ed719e;"></i>            <h3>Frameworks</h3>
-            <p>Flask, Django</p> 
-        </div>
-        <div class="skill-item">
-            <i class="fa-brands fa-git fa-beat-fade fa-2xl" style="color: #f887b4;"></i>            <h3>Tools</h3>
-            <p>Git, Github, VS Code, MySQL</p> 
-        </div>
+                <i class="fa-solid fa-code fa-beat-fade fa-2xl" style="color: #ed719e;"></i>
+                <h3>Languages</h3>
+                <p>HTML/CSS, JavaScript, Python, Java</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-python fa-beat-fade fa-2xl" style="color: #ed719e;"></i>
+                <h3>Frameworks</h3>
+                <p>Flask, Django</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-git fa-beat-fade fa-2xl" style="color: #f887b4;"></i>
+                <h3>Tools</h3>
+                <p>Git, Github, VS Code, MySQL</p>
+            </div>
     </section>
-   <section class="projects" id="projects">
-    <h2>My Projects</h2>
-    <div class="projects-list">
-        <div class="projects-item">
-            <img src="images/portfolio.png" alt="" style="width:300px
-            ;" >
-            <h3>Personal Portfolio</h3>
-            <p>A wesbite to showcase my projects and skills built with HTML, CSS, and JavaScript </p>
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-list">
+            <div class="projects-item">
+                <img src="images/portfolio.png" alt="" style="width:300px
+            ;">
+                <h3>Personal Portfolio</h3>
+                <p>A wesbite to showcase my projects and skills built with HTML, CSS, and JavaScript </p>
             </div>
             <div class="projects-item">
-            <img src="images/game.gif" alt="" style="width: 300px;">
+                <img src="images/game.gif" alt="" style="width: 300px;">
                 <h3>Simple Python Game</h3>
                 <p>A fun game built using Python that allows players to interact with a graphical interface.</p>
-                </div>
-                <div class="projects-item">
-            <img src="images/webapp.png" alt="" style="width: 300px;">
-                    <h3>Full Stack Web App</h3>
-                    <p>A combination of front-end with back-end frameworks and databases to deliver dynamic and responsive functionality.</p>
-                    </div>
-        </section>
+            </div>
+            <div class="projects-item">
+                <img src="images/webapp.png" alt="" style="width: 300px;">
+                <h3>Full Stack Web App</h3>
+                <p>A combination of front-end with back-end frameworks and databases to deliver dynamic and responsive
+                    functionality.</p>
+            </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to connect! Feel free to reach out for collboration, feedback, or oppurtunities.</p>
+        <div class="contact-container">
+            <!--Left side-->
+            <div class="contact-info">
+
+        <div class="contact-item">
+            <i class="fa-solid fa-envelope fa-2xl" style="color: #ed719e;"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:julzag28@bergen.org">julzag28@bergen.org</a></p>
+        </div>
+    
+        <div class="contact-item">
+            <i class="fa-brands fa-github fa-2xl" style="color: #ec799c;"></i>
+            <h3>Github</h3>
+            <p><a href="https://github.com/JulianaZagaja">https://github.com/JulianaZagaja</a></p>
+        </div>
+
+        <div class="contact-item">
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #f476a8;"></i>
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/">LinkedIn.com</a></p>
+        </div>
+        </div>
+<!--Right side-->
+        <div class="contact-form">
+<h3>Send Me a Message</h3>
+<form action="">
+    <input type="text" name="name" id="" placeholder="Your Name">
+    <input type="email" name="name" id="" placeholder="Your Email">
+    <textarea name="Message" id="" placeholder="Your Message"></textarea>
+    <button type="submit" class="cta-button">Send Message</button>
+</form>
+        </div>
+    </section>
 
 
 </body>
+
 </html>

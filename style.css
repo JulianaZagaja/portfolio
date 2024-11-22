@@ -42,6 +42,7 @@ header nav ul li a:hover {
 .hero-content p{
     font-size: 3rem;
     margin: 20px 0;
+    color: #f1f1f1;
 }
 
 .cta-button {
@@ -60,12 +61,16 @@ header nav ul li a:hover {
     background-color: #f1f1f1;
 }
 
-.about h2 {
+h2 {
     font-size: 3rem;
 }
 
-.about p{
-    font-size: 1.5rem;
+h3 {
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
     color: #555;
 }
 
@@ -114,4 +119,56 @@ header nav ul li a:hover {
     background-color: #f9f9f9;
     border-radius: 10px;
     width: 25%;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-item {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-item a{
+    color:#ed719e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+}
+
+.contact-form {
+    width: 45%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
 }
